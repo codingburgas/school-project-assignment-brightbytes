@@ -44,6 +44,7 @@ Our objective is to develop an educational app focused on education with tests a
 <img src="https://admin.kuleuven.be/icts/services/teams/images/Teamslogo/image" alt="Teams logo" width=54px>
 <img src="https://avatars.githubusercontent.com/u/18133?s=200&v=4" alt="Git logo" width=48px>
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Visual_Studio_Icon_2022.svg/1200px-Visual_Studio_Icon_2022.svg.png" alt="MS VisualStudio logo" width=48px />
+ <img src="https://tpc.ucf.edu/wp-content/uploads/sites/5/2022/12/canva-logo.png" alt="Canva logo" width=48px />
 </p> 
 <br>
 
