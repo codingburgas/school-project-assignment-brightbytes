@@ -15,9 +15,9 @@
 Our objective is to develop an educational app focused on education with tests and quizez.
 #### 
 ## 📄 Documentation and Presentation <a name="docs"></a>
-<img src="https://img.icons8.com/fluency/48/000000/microsoft-word-2019.png" alt="MS Word logo" width=20px />[Documentation](https://codingburgas-my.sharepoint.com/:w:/g/personal/sbivanov22_codingburgas_bg/Edvlv8nX-vVCsUmEsuBXmHQBwQQSc4-Zsuf7B2Eeb66lgw?e=vBbK4J)
+<img src="https://img.icons8.com/fluency/48/000000/microsoft-word-2019.png" alt="MS Word logo" width=20px />[Documentation](https://codingburgas-my.sharepoint.com/:w:/g/personal/psdineva21_codingburgas_bg/EVOiqgAH1j1InbB-oXVJI6IBTukTSROr3uBvIP0gSpIszQ?rtime=k9EXVAhf3Eg)
 <br>
-<img src="https://img.icons8.com/fluency/48/000000/microsoft-powerpoint-2019.png" alt="MS PowerPoint logo" width=20px >[Presentation](https://codingburgas-my.sharepoint.com/:p:/g/personal/sbivanov22_codingburgas_bg/EeKMmrb0nPBLj24ASyawAAoBWyZO1daSQ04sP3eZcX5_XA?e=2EPhXq)
+<img src="https://img.icons8.com/fluency/48/000000/microsoft-powerpoint-2019.png" alt="MS PowerPoint logo" width=20px >[Presentation](https://codingburgas-my.sharepoint.com/:p:/g/personal/psdineva21_codingburgas_bg/EX3MQUDkHadFsfiNVUUIU4UBoOi-7pUfNfYwn6dbQ0KjDg?e=YNMMKM)
  
 ## 🌱 Team <a name="collaborators"></a>
 > 1. **Scrum trainer**	- **VBKanev22** 
