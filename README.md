@@ -3,7 +3,7 @@
 <p align="center">
 <img width="45%" src="./Logo/Logo.png"/>
 <br>
- <br>
+
 ## 📋 Table of contents
   - [Our Idea](#idea)
   - [Documentation and Presentation](#docs)
