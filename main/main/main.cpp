@@ -1,12 +1,29 @@
 ﻿#include "MainMenu.h"
 using namespace std;
 
-int main() {
+int centerPos = (WIDTH - 5) / 2;
+int choicePos = (WIDTH - 4) / 2;
+int choice;
 
-    const int WIDTH = 80;
-    int centerPos = (WIDTH - 5) / 2;
-    int choicePos = (WIDTH - 4) / 2;
-    int choice;
+void ascii() {
+    
+    int asciiPos = (WIDTH - 40) / 2;
+
+    cout << "\x1b[33m";
+    cout << endl;
+    cout << setw(asciiPos) << "" << "________       _____        ______ _____     ________        _____             " << endl;
+    cout << setw(asciiPos) << "" << "___  __ )_________(_)______ ___  /___  /_    ___  __ )____  ___  /_____________" << endl;
+    cout << setw(asciiPos) << "" << "__  __  |_  ___/_  /__  __ `/_  __ \\  __/    __  __  |_  / / /  __/  _ \\_  ___/" << endl;
+    cout << setw(asciiPos) << "" << "_  /_/ /_  /   _  / _  /_/ /_  / / / /_      _  /_/ /_  /_/ // /_ /  __/(__  ) " << endl;
+    cout << setw(asciiPos) << "" << "/_____/ /_/    /_/  _\\__, / /_/ /_/\\__/      /_____/ _\\__, / \\__/ \\___//____/  " << endl;
+    cout << setw(asciiPos) << "" << "                    /____/                           /____/                    " << endl;
+    cout << endl;
+    cout << endl;
+    cout << endl;
+    cout << "\x1b[37m";
+}
+int main() {
+    
     
     do {
         ascii();
@@ -24,7 +41,8 @@ int main() {
 
         switch (choice) {
         case 1:
-            // Student D
+            system("CLS");
+            studentreg();
             break;
         case 2:
             // Student Dashboard code
