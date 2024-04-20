@@ -15,4 +15,5 @@ extern int choice;
 void ascii();
 int main();
 void studentreg();
+void message();
 #endif

@@ -48,10 +48,10 @@ int main() {
             // Student Dashboard code
             break;
         case 3:
-            // School Info code
-            break;
+            
         case 4:
-            // Message Support code
+            system("CLS");
+            message();
             break;
         case 5:
             cout << "Exiting program..." << endl;

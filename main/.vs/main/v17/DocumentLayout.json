@@ -7,16 +7,20 @@
       "RelativeMoniker": "D:0:0:{D93B079A-E13F-42C7-8338-BF32029E6485}|main\\main.vcxproj|solutionrelative:main\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{D93B079A-E13F-42C7-8338-BF32029E6485}|main\\main.vcxproj|C:\\Users\\teoma\\source\\repos\\school-project-assignment-brightbytes\\main\\main\\message.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D93B079A-E13F-42C7-8338-BF32029E6485}|main\\main.vcxproj|solutionrelative:main\\message.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D93B079A-E13F-42C7-8338-BF32029E6485}|main\\main.vcxproj|C:\\Users\\teoma\\source\\repos\\school-project-assignment-brightbytes\\main\\main\\studentreg.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{D93B079A-E13F-42C7-8338-BF32029E6485}|main\\main.vcxproj|solutionrelative:main\\studentreg.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D93B079A-E13F-42C7-8338-BF32029E6485}|main\\main.vcxproj|C:\\Users\\teoma\\source\\repos\\school-project-assignment-brightbytes\\main\\main\\StudentReg.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{D93B079A-E13F-42C7-8338-BF32029E6485}|main\\main.vcxproj|solutionrelative:main\\StudentReg.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D93B079A-E13F-42C7-8338-BF32029E6485}|main\\main.vcxproj|C:\\Users\\teoma\\source\\repos\\school-project-assignment-brightbytes\\main\\main\\MainMenu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{D93B079A-E13F-42C7-8338-BF32029E6485}|main\\main.vcxproj|solutionrelative:main\\MainMenu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D93B079A-E13F-42C7-8338-BF32029E6485}|main\\main.vcxproj|C:\\Users\\teoma\\source\\repos\\school-project-assignment-brightbytes\\main\\main\\StudentReg.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D93B079A-E13F-42C7-8338-BF32029E6485}|main\\main.vcxproj|solutionrelative:main\\StudentReg.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,11 +30,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
+              "Title": "message.cpp",
+              "DocumentMoniker": "C:\\Users\\teoma\\source\\repos\\school-project-assignment-brightbytes\\main\\main\\message.cpp",
+              "RelativeDocumentMoniker": "main\\message.cpp",
+              "ToolTip": "C:\\Users\\teoma\\source\\repos\\school-project-assignment-brightbytes\\main\\main\\message.cpp",
+              "RelativeToolTip": "main\\message.cpp",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAwDYAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-20T14:59:53.627Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "StudentReg.h",
               "DocumentMoniker": "C:\\Users\\teoma\\source\\repos\\school-project-assignment-brightbytes\\main\\main\\StudentReg.h",
               "RelativeDocumentMoniker": "main\\StudentReg.h",
@@ -43,13 +60,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "studentreg.cpp",
               "DocumentMoniker": "C:\\Users\\teoma\\source\\repos\\school-project-assignment-brightbytes\\main\\main\\studentreg.cpp",
               "RelativeDocumentMoniker": "main\\studentreg.cpp",
               "ToolTip": "C:\\Users\\teoma\\source\\repos\\school-project-assignment-brightbytes\\main\\main\\studentreg.cpp",
               "RelativeToolTip": "main\\studentreg.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAAAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABoAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-04-20T13:45:23.736Z",
               "EditorCaption": ""
@@ -62,9 +79,10 @@
               "RelativeDocumentMoniker": "main\\MainMenu.h",
               "ToolTip": "C:\\Users\\teoma\\source\\repos\\school-project-assignment-brightbytes\\main\\main\\MainMenu.h",
               "RelativeToolTip": "main\\MainMenu.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAGAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAALAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-04-17T18:56:55.618Z"
+              "WhenOpened": "2024-04-17T18:56:55.618Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -74,7 +92,7 @@
               "RelativeDocumentMoniker": "main\\main.cpp",
               "ToolTip": "C:\\Users\\teoma\\source\\repos\\school-project-assignment-brightbytes\\main\\main\\main.cpp",
               "RelativeToolTip": "main\\main.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAABrAAAA",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAADcAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-04-10T14:51:16.199Z",
               "EditorCaption": ""
