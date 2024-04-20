@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\teoma\\Documents\\school-project-assignment-brightbytes\\main\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D93B079A-E13F-42C7-8338-BF32029E6485}|main\\main.vcxproj|C:\\Users\\teoma\\Documents\\school-project-assignment-brightbytes\\main\\main\\MainMenu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{D93B079A-E13F-42C7-8338-BF32029E6485}|main\\main.vcxproj|solutionrelative:main\\MainMenu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D93B079A-E13F-42C7-8338-BF32029E6485}|main\\main.vcxproj|C:\\Users\\teoma\\Documents\\school-project-assignment-brightbytes\\main\\main\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{D93B079A-E13F-42C7-8338-BF32029E6485}|main\\main.vcxproj|solutionrelative:main\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D93B079A-E13F-42C7-8338-BF32029E6485}|main\\main.vcxproj|C:\\Users\\teoma\\Documents\\school-project-assignment-brightbytes\\main\\main\\MainMenu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D93B079A-E13F-42C7-8338-BF32029E6485}|main\\main.vcxproj|solutionrelative:main\\MainMenu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,30 +18,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MainMenu.h",
               "DocumentMoniker": "C:\\Users\\teoma\\Documents\\school-project-assignment-brightbytes\\main\\main\\MainMenu.h",
               "RelativeDocumentMoniker": "main\\MainMenu.h",
               "ToolTip": "C:\\Users\\teoma\\Documents\\school-project-assignment-brightbytes\\main\\main\\MainMenu.h",
               "RelativeToolTip": "main\\MainMenu.h",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABkAAAAtAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABoAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-04-17T18:56:55.618Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\teoma\\Documents\\school-project-assignment-brightbytes\\main\\main\\main.cpp",
               "RelativeDocumentMoniker": "main\\main.cpp",
               "ToolTip": "C:\\Users\\teoma\\Documents\\school-project-assignment-brightbytes\\main\\main\\main.cpp",
               "RelativeToolTip": "main\\main.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAABEAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-04-10T14:51:16.199Z",
               "EditorCaption": ""

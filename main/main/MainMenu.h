@@ -1,42 +1,29 @@
-#pragma once
 #ifndef MAINMENU_H
 #define MAINMENU_H
+
 #include <iostream>
-#include <vector>
-#include <string>
 #include <iomanip>
+#include <Windows.h>
+
 using namespace std;
-struct MenuItem {
-	string label;
-	void (*action)();
-};
-struct MenuNode {
-	MenuItem data;
-	MenuNode* next;
-};
-void ascii() {
 
 
-	cout << "\033[1;33m";
-	int screenWidthASCII = 90;
-	cout << endl;
+const int WIDTH = 80;
+int centerPos = (WIDTH - 5) / 2;
 
-	cout << setw(screenWidthASCII / 2 + 34) << " ____       _       _     _   ____        _             " << endl;
-	cout << setw(screenWidthASCII / 2 + 34) << "|  _ \     (_)     | |   | | |  _ \      | |            " << endl;
-	cout << setw(screenWidthASCII / 2 + 34) << "| |_) |_ __ _  __ _| |__ | |_| |_) |_   _| |_ ___  ___  " << endl;
-	cout << setw(screenWidthASCII / 2 + 34) << "|  _ <| '__| |/ _` | '_ \| __|  _ <| | | | __/ _ \/ __| " << endl;
-	cout << setw(screenWidthASCII / 2 + 34) << "| |_) | |  | | (_| | | | | |_| |_) | |_| | ||  __/\__ \ " << endl;
-	cout << setw(screenWidthASCII / 2 + 34) << "|____/|_|  |_|\__, |_| |_|\__|____/ \__, |\__\___||___/ " << endl;
-	cout << setw(screenWidthASCII / 2 + 34) << "               __/ |                 __/ |              " << endl;
-	cout << setw(screenWidthASCII / 2 + 34) << "              |___/                 |___/               " << endl;
+void ascii(){
+int asciiPos = (WIDTH - 30) / 2;
 
-
-	cout << "\033[0m";
-
-	cout << endl;
-	cout << endl;
-	cout << endl;
+cout << "\x1b[33m";
+cout << setw(asciiPos) << "" << "_____ _____ _______ _________________  _____" << endl;
+cout << setw(asciiPos) << "" << "___  __)_______(__)______   _  /\\_  )\\_   _  /\\_______" << endl;
+cout << setw(asciiPos) << "" << "|\\   /\\  \\__  \\  \\/\\   \\ |\\  \\  \\  / / / / /\\   \\   /\\" << endl;
+cout << setw(asciiPos) << "" << "\\_)_\\/\\  /_/\\  \\/\\  /\\ \\_)  )  )/ / ((_\\/\\/   /  / /" << endl;
+cout << setw(asciiPos) << "" << " \\___\\_/\\____\\_/\\_\\ \\__\\_\\/ /\\_\\/\\__\\\\__/\\__/  /(__)\\" << endl;
+cout << setw(asciiPos) << "" << "        \\_/      \\/_/\\/_/" << endl;
+cout << endl;
+cout << endl;
+cout << endl;
+cout << "\x1b[37m";
 }
-void displayMenu(MenuNode* head, int screenWidth);
-int main();
 #endif
