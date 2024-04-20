@@ -55,6 +55,7 @@ int main() {
             break;
         case 5:
             cout << "Exiting program..." << endl;
+            exit(0);
             break;
         default:
             system("CLS");
