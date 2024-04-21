@@ -22,7 +22,7 @@ public:
         cout << setw(centerPos) << "" << "3. Chemistry" << endl;
         cout << setw(centerPos) << "" << "4. Physics" << endl;
         cout << setw(centerPos) << "" << "5. English" << endl;
-        cout << setw(centerPos) << "" << "6. Make Your Own Test" << endl;
+        cout << setw(centerPos) << "" << "6. Your Tests" << endl;
         cout << setw(centerPos) << "" << "7. Go back to the main menu" << endl;
     }
 
