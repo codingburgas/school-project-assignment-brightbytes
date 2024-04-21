@@ -6,7 +6,7 @@ If you discover a security vulnerability, please report it to us by sending an e
 
 ## 🌐 Scope
 
-This security policy applies to all aspects of Alpha2's online services and associated repositories.
+This security policy applies to all aspects of BrightBytes' online services and associated repositories.
 
 ## ⚓ Safe Harbor
 
@@ -14,7 +14,7 @@ We consider security research and vulnerability disclosure activities conducted 
 
 ## 🔐 Security Measures
 
-Alpha2 employs industry-standard security measures to safeguard your data and maintain the integrity of our online banking services.
+BrightBytes employs industry-standard security measures to safeguard your data and maintain the integrity of our online banking services.
 
 ## 📧 Contact
 
