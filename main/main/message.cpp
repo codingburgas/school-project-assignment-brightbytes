@@ -30,38 +30,37 @@ void message() {
             main();
             break;
         case 1:
-            system("start mailto:tsmadzharov21@coingburgas.bg");
+            system("start mailto:vbkanev22@codingburgas.bg");
             system("CLS");
             message();
             break;
         case 2:
-            system("start mailto:tsmadzharov21@coingburgas.bg");
+            system("start mailto:tsmadzharov21@codingburgas.bg");
             system("CLS");
             message();
-
             break;
         case 3:
-            system("start mailto:tsmadzharov21@coingburgas.bg");
+            system("start mailto:kdivanov21@codingburgas.bg");
             system("CLS");
             message();
             break;
         case 4:
-            system("start mailto:tsmadzharov21@coingburgas.bg");
+            system("start mailto:nnlibchev22@codingburgas.bg");
             system("CLS");
             message();
             break;
         case 5:
-            system("start mailto:tsmadzharov21@coingburgas.bg");
+            system("start mailto:ssnikolov21@codingburgas.bg");
             system("CLS");
             message();
             break;
         case 6:
-            system("start mailto:tsmadzharov21@coingburgas.bg");
+            system("start mailto:manikolov22@codingburgas.bg");
             system("CLS");
             message();
             break;
         case 7:
-            system("start mailto:tsmadzharov21@coingburgas.bg");
+            system("start mailto:psdineva21@codingburgas.bg");
             system("CLS");
             message();
             break;

@@ -1,4 +1,5 @@
 ﻿#include "MainMenu.h"
+
 using namespace std;
 
 int centerPos = (WIDTH - 5) / 2;
@@ -45,7 +46,7 @@ int main() {
             studentreg();
             break;
         case 2:
-            // Student Dashboard code
+            checkFile();
             break;
         case 3:
             
