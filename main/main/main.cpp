@@ -54,7 +54,9 @@ int main() {
             message();
             break;
         case 5:
-            cout << "Exiting program..." << endl;
+            system("CLS");
+            ascii();
+            cout << setw(centerPos) << "" << "Exiting program..." << endl;
             exit(0);
             break;
         default:

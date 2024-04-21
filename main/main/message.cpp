@@ -8,8 +8,9 @@ using namespace std;
 void message() {
     do {
         ascii();
+        int newPos = (WIDTH - 4) / 1.5;
 
-        cout << setw(choicePos) << "" << "Our Support" << endl;
+        cout << setw(newPos) << "" << "Our Support" << endl;
         cout << endl;
         cout << setw(centerPos) << "" << "1. Viktor Kanev - Scrum Trainer" << endl;
         cout << setw(centerPos) << "" << "2. Teodor Madzharov - BackEnd Developer" << endl;
