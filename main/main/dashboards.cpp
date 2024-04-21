@@ -79,7 +79,7 @@ public:
             runDashboard();
         }
         if (choice == 2) {
-            cout << "Grades";
+            algebraTest();
         }
         else {
             system("CLS");

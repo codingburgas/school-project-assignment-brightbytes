@@ -19,4 +19,5 @@ int main();
 void studentreg();
 void message();
 void checkFile();
+void algebraTest();
 #endif

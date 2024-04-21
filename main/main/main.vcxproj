@@ -128,9 +128,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="dashboards.cpp" />
+    <ClCompile Include="grades.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="message.cpp" />
     <ClCompile Include="studentreg.cpp" />
+    <ClCompile Include="tests.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MainMenu.h" />
