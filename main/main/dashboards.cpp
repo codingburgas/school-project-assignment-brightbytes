@@ -10,13 +10,12 @@ public:
     void welcome() {
         system("CLS");
         ascii();
-        cout << setw(choicePos) << "" << "\x1b[32m" << "Welcome, " << firstName << "!" << "\x1b[0m" << endl;
+        cout << setw(choicePos) << "" << "Welcome, " << firstName << "!" << endl;
         cout << endl;
     }
-
     void showOptions() {
-        // Display test options
-        cout << setw(choicePos) << "" << "Your tests for today:" << endl;
+
+        cout << setw(choicePos) << "" << "Your tests for today:" << firstName << endl;
         cout << endl;
         cout << setw(centerPos) << "" << "1. Algebra" << endl;
         cout << setw(centerPos) << "" << "2. Biology" << endl;
@@ -67,6 +66,27 @@ public:
             break;
         }
     }
+    void maindash() {
+        welcome();
+        cout << setw(centerPos) << "" << "1. Exams" << endl;
+        cout << setw(centerPos) << "" << "2. Grades" << endl;
+        cout << setw(centerPos) << "" << "3. Return to the main menu" << endl;
+        cout << endl;
+        cout << setw(choicePos) << "" << "Enter your choice: ";
+        int choice;
+        cin >> choice;
+        if (choice == 1) {
+            runDashboard();
+        }
+        if (choice == 2) {
+            cout << "Grades";
+        }
+        else {
+            system("CLS");
+            main();
+        }
+    }
+    
 };
 void checkFile() {
     ifstream inputFile("../students.txt");
@@ -80,7 +100,7 @@ void checkFile() {
         system("CLS");
         string firstName;
         Dashboard dashboard(firstName);
-        dashboard.runDashboard();
+        dashboard.maindash();
     }
     inputFile.close();
 }

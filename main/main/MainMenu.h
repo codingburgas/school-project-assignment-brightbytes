@@ -5,6 +5,7 @@
 #include <iomanip>
 #include <Windows.h>
 #include <fstream>
+#include <ctime>
 
 using namespace std;
 
