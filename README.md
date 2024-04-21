@@ -1,7 +1,7 @@
 <h1 align="center">Bright Bytes</h1>
 <br>
 <p align="center">
-<img width="45%" src="./Logo/Logo.png"/>
+<img width="45%" src="./assets/Logo.png"/>
 <br>
 
 ## 📋 Table of contents
