@@ -38,7 +38,7 @@ Overall, our objective is to develop an educational app that not only serves as 
 ## 🌱 Team <a name="collaborators"></a>
 > 1. **Scrum trainer**	- **VBKanev22** 
    - ***GitHub profile***: [***VBKanev22***](https://github.com/VBKanev22)	
-> 2. **Back-end**- **MANikolov22**	
+> 2. **Back-end Developer**- **MANikolov22**	
    - ***GitHub profile***: [***MANikolov22***](https://github.com/MANikolov22)	
 > 3. **Back-end Developer** - **NNLibchev22** 	
    - ***GitHub profile***: [***NNLibchev22***](https://github.com/NNlibchev22)
