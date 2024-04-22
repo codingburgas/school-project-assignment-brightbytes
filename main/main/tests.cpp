@@ -73,3 +73,113 @@ void algebraTest() {
 
 
 }
+void chemistryTest() {
+    vector<Question> chemistryQuestions = {
+        {"What is the chemical symbol for oxygen?", "O"},
+        {"What is the atomic number of carbon?", "6"},
+        {"How many electrons does a neutral oxygen atom have?", "8"},
+        {"What is the chemical formula for water?", "H2O"},
+        {"What is the chemical symbol for iron?", "Fe"},
+        {"What is the atomic number of sodium?", "11"},
+        {"What is the chemical formula for carbon dioxide?", "CO2"},
+        {"What is the chemical symbol for gold?", "Au"},
+        {"What is the atomic number of helium?", "2"},
+        {"How many valence electrons does nitrogen have?", "5"}
+    };
+
+    int score = 0;
+    srand(time(nullptr));
+
+    random_shuffle(chemistryQuestions.begin(), chemistryQuestions.end());
+
+    int questionNumber = 1;
+
+    for (const auto& question : chemistryQuestions) {
+        system("CLS");
+        ascii();
+        cout << setw(50) << "" << "Chemistry Test" << endl;
+        cout << setw(47) << "" << "Question " << questionNumber << " out of " << chemistryQuestions.size() << ":" << endl;
+        cout << endl;
+
+
+        cout << setw(44) << "" << question.questionText << endl;
+        cout << endl;
+        cout << endl;
+        string userAnswer;
+        cout << setw(50) << "" << "Your Answer: ";
+        cin >> userAnswer;
+
+        if (userAnswer == question.answer) {
+            score++;
+            cout << setw(50) << "\x1b[32m" << "" << "Correct!" << "\x1b[37m" << endl;
+        }
+        else {
+            system("CLS");
+            ascii();
+            cout << setw(45) << "\x1b[31m" << "" << "Incorrect. The correct answer is: " << "\x1b[37m" << question.answer << endl;
+        }
+
+        this_thread::sleep_for(chrono::seconds(2));
+        questionNumber++;
+    }
+
+    system("CLS");
+    ascii();
+    cout << setw(50) << "Chemistry Test Result" << endl;
+    cout << setw(50) << "Your score: " << score << "/" << chemistryQuestions.size() << endl;
+    cout << endl;
+    cout << endl;
+    cout << setw(50) << "Press any button to go back: ";
+    int back;
+    cin >> back;
+    if (back == 0) {
+        main();
+    }
+}
+
+
+
+
+
+
+void createTest() {
+    vector<string> questions;
+    string question;
+    ascii();
+
+    cout << setw(50) << " " << "Enter 5 questions for the test:\n";
+
+    for (int i = 1; i <= 5; ++i) {
+        cout << "Question " << i << ": ";
+        getline(cin, question);
+        questions.push_back(question);
+    }
+
+
+    ofstream outFile("test_questions.txt");
+    if (outFile.is_open()) {
+        for (const string& q : questions) {
+            outFile << q << endl;
+        }
+        outFile.close();
+    }
+}
+void yourtests() {
+    system("CLS");
+    ascii();
+    cout << setw(50) << " " << "1. Your Tests\n";
+    cout << setw(50) << " " << "2. Make Your Test\n";
+    cout << setw(50) << " " << "Press any button to go back to the menu\n";
+
+    cout << endl;
+    cout << "Enter your choice: ";
+    int test1;
+    cin >> test1;
+    if (test1 == 1) {
+        cout << endl;
+    }
+    else if (test1 == 2) {
+        createTest();
+    }
+
+}

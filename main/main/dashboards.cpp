@@ -41,10 +41,12 @@ public:
             algebraTest();
             break;
         case 2:
-            // Code for Test 2
+            system("CLS");
+            chemistryTest();
             break;
         case 3:
-            // Code for Test 3
+            system("CLS");
+            chemistryTest();
             break;
         case 4:
             // Code for Test 4

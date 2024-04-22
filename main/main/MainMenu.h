@@ -20,4 +20,5 @@ void studentreg();
 void message();
 void checkFile();
 void algebraTest();
+void chemistryTest();
 #endif
