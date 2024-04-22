@@ -7,7 +7,7 @@ int choicePos = (WIDTH - 4) / 2;
 int choice;
 
 void ascii() {
-    
+
     int asciiPos = (WIDTH - 40) / 2;
 
     cout << "\x1b[33m";
@@ -24,11 +24,11 @@ void ascii() {
     cout << "\x1b[37m";
 }
 int main() {
-    
-    
+
+
     do {
         ascii();
-        
+
         cout << setw(choicePos) << "" << "Select Your Opiton" << endl;
         cout << endl;
         cout << setw(centerPos) << "" << "1. Student Register" << endl;
@@ -49,7 +49,7 @@ int main() {
             checkFile();
             break;
         case 3:
-            
+
         case 4:
             system("CLS");
             message();

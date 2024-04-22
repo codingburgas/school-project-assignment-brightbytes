@@ -35,12 +35,12 @@ void studentreg() {
     cout << setw(centerPos) << "" << "Enter your password (8 to 16 characters): ";
     cin >> password;
     if (password.length() < 8 || password.length() > 16) {
-        
+
         system("CLS");
         cout << endl;
         displayErrorMessage("Password must be between 8 and 16 characters long.");
         studentreg();
-        
+
         return;
     }
 
@@ -51,7 +51,7 @@ void studentreg() {
         cout << endl;
         displayErrorMessage("Age must be a number between 9 and 120.");
         studentreg();
-        
+
         return;
     }
 

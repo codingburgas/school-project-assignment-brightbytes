@@ -1,5 +1,5 @@
 #include "MainMenu.h"
-
+#
 class Dashboard {
 private:
     string firstName;
@@ -35,10 +35,10 @@ public:
         cout << setw(choicePos) << "" << "Enter your choice: ";
         cin >> choice;
 
-        // Perform actions based on user's choice (switch statement here)
         switch (choice) {
         case 1:
-            // Code for Test 1
+            system("CLS");
+            algebraTest();
             break;
         case 2:
             // Code for Test 2
@@ -79,14 +79,14 @@ public:
             runDashboard();
         }
         if (choice == 2) {
-            algebraTest();
+            cout << endl;
         }
         else {
             system("CLS");
             main();
         }
     }
-    
+
 };
 void checkFile() {
     ifstream inputFile("../students.txt");
