@@ -42,20 +42,23 @@ public:
             break;
         case 2:
             system("CLS");
-            chemistryTest();
+            biologyTest();
             break;
         case 3:
             system("CLS");
             chemistryTest();
             break;
         case 4:
-            // Code for Test 4
+            system("CLS");
+            physicsTest();
             break;
         case 5:
-            // Code for Test 5
+            system("CLS");
+            englishTest();
             break;
         case 6:
-            // Code for Make Your Own Test
+            system("CLS");
+            yourtests();
             break;
         case 7:
             system("CLS");

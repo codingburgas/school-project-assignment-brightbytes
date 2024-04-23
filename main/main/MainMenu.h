@@ -1,11 +1,14 @@
+
 #ifndef MAINMENU_H
 #define MAINMENU_H
+
 
 #include <iostream>
 #include <iomanip>
 #include <Windows.h>
 #include <fstream>
 #include <ctime>
+#include <string>
 
 using namespace std;
 
@@ -20,5 +23,10 @@ void studentreg();
 void message();
 void checkFile();
 void algebraTest();
+void physicsTest();
 void chemistryTest();
+void biologyTest();
+void englishTest();
+void yourtests();
+void createTest();
 #endif
