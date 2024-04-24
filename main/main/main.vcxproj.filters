@@ -27,9 +27,6 @@
     <ClCompile Include="dashboards.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="grades.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="tests.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>

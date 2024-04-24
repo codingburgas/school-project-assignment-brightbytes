@@ -46,6 +46,8 @@ void algebraTest() {
 
         if (userAnswer == question.answer) {
             score++;
+            system("CLS");
+            ascii();
             cout << setw(50) << "\x1b[32m" << "" << "Correct!" << "\x1b[37m" << endl;
         }
         else {
@@ -60,14 +62,14 @@ void algebraTest() {
 
     system("CLS");
     ascii();
-    cout << setw(50) << "Algebra Test Result" << endl;
-    cout << setw(50) << "Your score: " << score << "/" << algebraQuestions.size() << endl;
+    cout << setw(50) <<""<< "Algebra Test Result" << endl;
+    cout << setw(50) << "" << "Your score: " << score << "/" << algebraQuestions.size() << endl;
     cout << endl;
-    cout << endl;
-    cout << setw(50) << "Press any button to go back: ";
+    cout << setw(50) << "" << "Press any button to go back: ";
     int back;
     cin >> back;
     if (back == 0) {
+        system("CLS");
         main();
     }
 
@@ -327,27 +329,104 @@ void englishTest() {
     }
 }
 
+
+
 void createTest() {
-    vector<string> questions;
-    string question;
+    vector<pair<string, string>> questionsWithAnswers; 
+    string question, answer;
     ascii();
 
-    cout << setw(50) << " " << "Enter 5 questions for the test:\n";
-
+    cout << setw(40) << " " << "Enter 5 questions and their answers for the test:\n";
+    cout << endl;
     for (int i = 1; i <= 5; ++i) {
-        cout << "Question " << i << ": ";
+        cout << setw(47) << " " << "Question " << i << ": ";
+        cin.ignore();
         getline(cin, question);
-        questions.push_back(question);
+        cout << setw(47) << " " << "Answer " << i << ": ";
+        getline(cin, answer);
+        questionsWithAnswers.push_back({ question, answer });
     }
-
-    ofstream outFile("test_questions.txt");
+    ofstream outFile("../test_questions.txt");
     if (outFile.is_open()) {
-        for (const string& q : questions) {
-            outFile << q << endl;
+        for (const auto& qa : questionsWithAnswers) {
+            outFile << qa.first << endl;
+            outFile << qa.second << endl;
         }
         outFile.close();
+        system("CLS");
+
+        cout << setw(50) << " " << "\x1b[32m" << "Test questions saved\n" << "\x1b[0m";
+        main();
+    }
+    else {
+        system("CLS");
+        cout << setw(50) << " " << "\x1b[32m" << "Error: Unable to save test questions.\n" << "\x1b[0m";
+        main();
     }
 }
+
+void takeTestFromQuestionsFile() {
+    ifstream inFile("../test_questions.txt");
+    if (!inFile.is_open()) {
+        cout << "Error: Unable to open test questions file.\n";
+        return;
+    }
+
+    vector<Question> questions;
+    string questionText, answer;
+
+    while (getline(inFile, questionText) && getline(inFile, answer)) {
+        questions.push_back({ questionText, answer });
+    }
+
+    inFile.close();
+
+    int score = 0;
+    int questionNumber = 1;
+    for (const auto& question : questions) {
+        system("CLS");
+        ascii();
+        cout << setw(50) << "" << "Your Questionnaire" << endl;
+        cout << endl;
+        cout << setw(45) << "" << "Question " << questionNumber << " out of " << questions.size() << ":" << endl;
+        cout << endl;
+
+        cout << setw(45) << "" << question.questionText << endl;
+        cout << endl;
+        cout << endl;
+        string userAnswer;
+        cout << setw(50) << "" << "Your Answer: ";
+        cin >> userAnswer;
+
+        if (userAnswer == question.answer) {
+            score++;
+            system("CLS");
+            ascii();
+            cout << setw(50) << "\x1b[32m" << "" << "Correct!" << "\x1b[37m" << endl;
+        }
+        else {
+            system("CLS");
+            ascii();
+            cout << setw(45) << "\x1b[31m" << "" << "Incorrect. The correct answer is: " << "\x1b[37m" << question.answer << endl;
+        }
+
+        this_thread::sleep_for(chrono::seconds(2));
+        questionNumber++;
+    }
+
+    system("CLS");
+    ascii();
+    cout << setw(50) << "Your questionnaire Result" << endl;
+    cout << setw(50) << "Your score: " << score << "/" << questions.size() << endl;;
+    cout << setw(50) << "Press any button to go back: ";
+    int back;
+    cin >> back;
+    if (back == 0) {
+        system("CLS");
+        main();
+    }
+}
+
 void yourtests() {
     system("CLS");
     ascii();
@@ -360,9 +439,11 @@ void yourtests() {
     int test1;
     cin >> test1;
     if (test1 == 1) {
-        cout << endl;
+        system("CLS");
+        takeTestFromQuestionsFile();
     }
     else if (test1 == 2) {
+        system("CLS");
         createTest();
     }
 }

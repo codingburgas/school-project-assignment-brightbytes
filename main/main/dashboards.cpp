@@ -1,8 +1,31 @@
 #include "MainMenu.h"
-#
+
 class Dashboard {
 private:
+
+
     string firstName;
+
+    string readFirstNameFromFile(const string& filename) {
+        ifstream inputFile(filename);
+        if (!inputFile.is_open()) {
+            cerr << "Error: Unable to open file " << filename << endl;
+            return "";
+        }
+
+        string line;
+        if (getline(inputFile, line)) {
+            istringstream iss(line);
+            string firstName;
+            getline(iss, firstName, ',');
+            inputFile.close();
+            return firstName;
+        }
+        else {
+            inputFile.close();
+            return "";
+        }
+    }
 
 public:
     Dashboard(const string& fName) : firstName(fName) {}
@@ -71,31 +94,11 @@ public:
             break;
         }
     }
-    void maindash() {
-        welcome();
-        cout << setw(centerPos) << "" << "1. Exams" << endl;
-        cout << setw(centerPos) << "" << "2. Grades" << endl;
-        cout << setw(centerPos) << "" << "3. Return to the main menu" << endl;
-        cout << endl;
-        cout << setw(choicePos) << "" << "Enter your choice: ";
-        int choice;
-        cin >> choice;
-        if (choice == 1) {
-            runDashboard();
-        }
-        if (choice == 2) {
-            cout << endl;
-        }
-        else {
-            system("CLS");
-            main();
-        }
-    }
 
 };
 void checkFile() {
     ifstream inputFile("../students.txt");
-    inputFile.seekg(0, ios::end); // Move file pointer to end
+    inputFile.seekg(0, ios::end);
     if (inputFile.tellg() == 0) {
         system("CLS");
         cout << setw(choicePos) << "" << "\x1b[31m" << "No student information available. Please register first." << "\x1b[0m" << endl;
@@ -105,7 +108,7 @@ void checkFile() {
         system("CLS");
         string firstName;
         Dashboard dashboard(firstName);
-        dashboard.maindash();
+        dashboard.runDashboard();
     }
     inputFile.close();
 }

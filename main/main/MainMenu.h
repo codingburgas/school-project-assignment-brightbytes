@@ -9,7 +9,7 @@
 #include <fstream>
 #include <ctime>
 #include <string>
-
+#include <sstream>
 using namespace std;
 
 const int WIDTH = 80;
@@ -28,5 +28,5 @@ void chemistryTest();
 void biologyTest();
 void englishTest();
 void yourtests();
-void createTest();
+void takeTestFromQuestionsFile();
 #endif

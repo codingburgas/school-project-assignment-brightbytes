@@ -47,6 +47,7 @@ int main() {
             break;
         case 2:
             checkFile();
+
             break;
         case 3:
 
